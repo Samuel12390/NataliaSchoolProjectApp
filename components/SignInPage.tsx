@@ -12,7 +12,7 @@ export const SignInPage = () => {
 
   const handleSignIn = () => {
     console.log("Signing In")
-    if (email === "nantunezserrano00@gmail.com" && password === "saludpublica") {
+    if (email === "natalia.antunez@upr.org" && password === "saludpublica") {
     } else {
       Alert.alert('Login Failed', 'Incorrect email or password.');
     }

@@ -51,7 +51,7 @@ export const CreateAccountPage = () => {
     return (
       <Form onSubmit={() => handleSubmit}
       style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <H1 style= {{ color: 'black', fontWeight: 'bold', justifyContent: 'center'}}>Create Your Account</H1>
+        <H1 style= {{ color: 'black', fontWeight: 'bold', justifyContent: 'center', alignSelf: 'center'}}>Create Your Account</H1>
         <Separator borderWidth={10} borderColor={'$colorTransparent'}/>
         <TextInput
           style={{ marginTop: 10, width: '80%', padding: 10, borderWidth: 1, borderRadius: 30 }}
